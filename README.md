@@ -737,11 +737,11 @@ if (target.attachEvent) {
 </script>
 ```
 
-- IE5-8不支持``opacity``，解决办法：
+- IE5-8不支持``opacity``，解决办法：http://blog.csdn.net/freshlover/article/details/17143341
 
 ```
 .opacity {
-    opacity: 0.4
+    opacity: 0.6
     filter: alpha(opacity=60); /* for IE5-7 */
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* for IE 8*/
 }
